@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&display=swap');
+
+/* CSS VARIABLES */
+
+:root {
+
+    --navigation-bar: fit-content;
+
+    /* Color Palette */
+
+    --color-dark: #1b263b;
+    --color-light: #f9f9f9;
+    --color-gray: #454545;
+    --color-special: #001D3D;
+    --colorBG-body: #eaf4f4;
+    --colorBG-main: #00296B;
+    --colorBG-btn: #e3f2fd;
+    --colorBG-mobileNav: hsla(211, 100%, 12%, 0.99);
+
+
+    /* Typography */
+
+    --ff-text: 'Noto Sans', sans-serif;
+    --ff-special: 'Expletus Sans', cursive;
+
+    --fs-text: 1.4rem;
+    --fs-h1: 4rem;
+    --fs-h2: 2rem;
+    --fs-h3: 2.2rem;
+    --fs-h4: 1.8rem;
+    --fs-button: 1.6rem;
+
+    --fw-200: 200;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fw-800: 800;
+}

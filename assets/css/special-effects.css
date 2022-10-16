@@ -1,0 +1,58 @@
+@import url("./variables.css");
+
+
+.btn {
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-light);
+    color: var(--color-gray);
+    z-index: 1;
+    
+    
+}
+
+.btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: var(--colorBG-btn);
+    transition: all 0.3s ease;
+}
+
+.btn--special:after {
+    background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+}
+
+.btn:hover {
+    color: var(--color-gray);
+}
+
+
+.btn:hover:after {
+    left: 0;
+    width: 100%;
+}
+.btn:active {
+    top: 2px;
+}
+
+.btn, 
+.btn:after, 
+.btn--special:after,
+.specials--content {
+    border-radius: 8px;
+}
+
+.toggle--btn {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,113 @@
+@import url("./variables.css");
+@import url("./special-effects.css");
+
+/* REUSABLE CSS STYLES */
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.section {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.description {
+    line-height: 2;
+    text-align: justify;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox--column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify--content-c {
+    justify-content: center;
+}
+
+.justify--content-sb {
+    justify-content: space-between;
+}
+
+.align--items-c {
+    align-items: center;
+}
+
+.align--items-fs {
+    align-items: flex-start;
+}
+
+.align--items-sb {
+    align-items: flex-end;
+}
+
+.grid {
+    display: grid;
+}
+
+.text--align-c {
+    text-align: center;
+}
+
+.text--align-l {
+    text-align: left;
+}
+
+.text--align-j {
+    text-align: justify;
+}
+
+.text--transform-up {
+    text-transform: uppercase;
+}   
+
+.p--block-2x {
+    padding-block: 2rem;
+}
+
+.p--block-3x {
+    padding-block: 3rem;
+}
+
+.p--block-4x {
+    padding-block: 4rem;
+}
+
+.p--block-5x {
+    padding-block: 5rem;
+}
+
+.p--block-end-5x {
+    padding-block-end: 5rem;
+}
+
+.p--block-8x {
+    padding-block: 8rem;
+}
+
+.p--inline-x {
+    padding-inline: 1rem;
+}
+
+.p--inline-2x {
+    padding-inline: 2rem;
+}
+
+.p--inline-3x {
+    padding-inline: 3rem;
+}
+
+.p--inline-4x {
+    padding-inline: 4rem;
+}
+
