@@ -26,7 +26,7 @@ body {
 
 .theme--dark {
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    color: var(--color-light);
+    color: var(--color-gray);
 }
 
 .theme--light {
@@ -163,7 +163,8 @@ header {
     width: 100%;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);
+    padding-bottom: 2rem;
 }
 
 .hero--section .content--container {
@@ -361,7 +362,7 @@ header {
         right: 0;
         background-color: rgba(0, 0, 0, 0.35);
         background-position: 90% 25%;
-        background-size: 300%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
         z-index: -1;
@@ -460,6 +461,10 @@ header {
 
     .mobile .menu--item-link .bx {
         margin-bottom: 0.4rem;
+    }
+
+    .hero--section {
+        padding-bottom: 3rem;
     }
 
 
