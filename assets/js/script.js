@@ -41,7 +41,7 @@ addEventOnElem(navLinks, 'click', linkClicked);
 
 var i = 0;
 var images = [];
-var slideTime = 5000; // 3 seconds
+var slideTime = 2000; // 2 seconds
 const slider = document.querySelector(".hero--slider");
 
 images[0] = 'https://images.unsplash.com/photo-1608265035345-2c692e691b92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80';
