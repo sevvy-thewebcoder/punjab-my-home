@@ -41,7 +41,7 @@ addEventOnElem(navLinks, 'click', linkClicked);
 
 var i = 0;
 var images = [];
-var slideTime = 2500; // 2 seconds
+var slideTime = 2000; // 2 seconds
 const slider = document.querySelector(".hero--slider");
 
 images[0] = 'https://images.unsplash.com/photo-1608265035345-2c692e691b92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80';
@@ -53,7 +53,6 @@ images[4] = 'https://punjabtourism.punjab.gov.in/destination/destibnation-rupnag
 
 function changePicture() {
     slider.style.backgroundImage = "url(" + images[i] + ")";
-    slider.style.transition = "background-image 0.25s ease-in"
 
     if (i < images.length - 1) {
         i++;

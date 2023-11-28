@@ -98,8 +98,6 @@ header {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    background-attachment: fixed;
-    filter: blur(1.5px);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
