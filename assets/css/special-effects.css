@@ -9,8 +9,8 @@
     display: inline-block;
     background-color: var(--color-light);
     color: var(--color-gray);
+    overflow: hidden;
     z-index: 1;
-    
     
 }
 
